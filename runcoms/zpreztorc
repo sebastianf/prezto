@@ -34,11 +34,9 @@ zstyle ':prezto:load' pmodule \
   'terminal' \
   'editor' \
   'history' \
-  'history-substring-search' \
   'directory' \
   'spectrum' \
   'utility' \
-  'completion' \
   'homebrew' \
   'osx' \
   'ruby' \
@@ -48,8 +46,11 @@ zstyle ':prezto:load' pmodule \
   'python' \
   'haskell' \
   'syntax-highlighting' \
+  'history-substring-search' \
   'tmux' \
   'utility' \
+  'completion' \
+  'autosuggestions' \
   'prompt'
 
 #
@@ -102,7 +103,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 #
 
 # Set the query found color.
-# zstyle ':prezto:module:history-substring-search:color' found ''
+# zstyle ':prezto:module:history-substring-search:color' found 'yes'
 
 # Set the query not found color.
 # zstyle ':prezto:module:history-substring-search:color' not-found ''
