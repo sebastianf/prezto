@@ -47,11 +47,33 @@ zstyle ':prezto:load' pmodule \
   'haskell' \
   'syntax-highlighting' \
   'history-substring-search' \
-  'tmux' \
-  'utility' \
   'completion' \
-  'autosuggestions' \
+  'tmux' \
   'prompt'
+
+#  'environment' \
+#  'environment' \
+#  'terminal' \
+#  'editor' \
+#  'history' \
+#  'directory' \
+#  'spectrum' \
+#  'utility' \
+#  'homebrew' \
+#  'osx' \
+#  'ruby' \
+#  'rails' \
+#  'git' \
+#  'node' \
+#  'python' \
+#  'haskell' \
+#  'syntax-highlighting' \
+#  'history-substring-search' \
+#  'tmux' \
+#  'utility' \
+#  'completion' \
+#  'autosuggestions' \
+#  'prompt'
 
 #
 # Autosuggestions
@@ -137,7 +159,7 @@ zstyle ':prezto:module:prompt' theme 'powerlevel10k'
 # Set the working directory prompt display length.
 # By default, it is set to 'short'. Set it to 'long' (without '~' expansion)
 # for longer or 'full' (with '~' expansion) for even longer prompt display.
-# zstyle ':prezto:module:prompt' pwd-length 'short'
+zstyle ':prezto:module:prompt' pwd-length 'full'
 
 # Set the prompt to display the return code along with an indicator for non-zero
 # return codes. This is not supported by all prompts.

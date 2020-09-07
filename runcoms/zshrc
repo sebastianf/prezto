@@ -33,6 +33,7 @@ alias fixow='/System/Library/Frameworks/CoreServices.framework/Versions/A/Framew
 alias zshreload='. ~/.zshrc'
 alias showHiddenFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideHiddenFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 export NVM_DIR="~/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
